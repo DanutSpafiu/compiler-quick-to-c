@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Danut Spafiu\\Desktop\\VS\\LFTC_ALEX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5753F24C-A2E9-498A-B6E0-10CA2AB108B7}|LFTC_ALEX\\LFTC_ALEX.vcxproj|C:\\Users\\Danut Spafiu\\Desktop\\VS\\LFTC_ALEX\\LFTC_ALEX\\LFTC_ALEX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5753F24C-A2E9-498A-B6E0-10CA2AB108B7}|LFTC_ALEX\\LFTC_ALEX.vcxproj|solutionrelative:LFTC_ALEX\\LFTC_ALEX.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LFTC_ALEX.cpp",
+              "DocumentMoniker": "C:\\Users\\Danut Spafiu\\Desktop\\VS\\LFTC_ALEX\\LFTC_ALEX\\LFTC_ALEX.cpp",
+              "RelativeDocumentMoniker": "LFTC_ALEX\\LFTC_ALEX.cpp",
+              "ToolTip": "C:\\Users\\Danut Spafiu\\Desktop\\VS\\LFTC_ALEX\\LFTC_ALEX\\LFTC_ALEX.cpp",
+              "RelativeToolTip": "LFTC_ALEX\\LFTC_ALEX.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-11T10:36:42.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
