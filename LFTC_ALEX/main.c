@@ -3,7 +3,7 @@
 #include "lexer.h"
 #include "utils.h"
 
-int main() 
+int main()
 {
   char *inbuf = loadFile("test/1.q");
   tokenize(inbuf);

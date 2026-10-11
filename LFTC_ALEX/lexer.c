@@ -56,7 +56,7 @@ void tokenize(const char *pch){
 			case '*':addTk(MUL);pch++;break;
 			case '<':addTk(LESS);pch++;break;
 			case '/':
-				if(pch[1]=='/'){		// comment: skip until the end of the line
+				if(pch[1]=='/'){
 					for(pch+=2;*pch!='\n'&&*pch!='\r'&&*pch!='\0';pch++){}
 					}else{
 					addTk(DIV);
@@ -105,13 +105,13 @@ void tokenize(const char *pch){
 					}
 				break;
 			case '"':
-				tk=addTk(STR);		// added before consuming, so it keeps the line where the string starts
+				tk=addTk(STR);
 				for(start=++pch;*pch!='"';pch++){
 					if(*pch=='\0')err("line %d: missing closing \" for string",tk->line);
 					if(*pch=='\n'||(*pch=='\r'&&pch[1]!='\n'))line++;
 					}
 				copyn(tk->text,start,pch);
-				pch++;		// skip the closing "
+				pch++;
 				break;
 			default:
 				if(isalpha((unsigned char)*pch)||*pch=='_'){
@@ -148,7 +148,6 @@ void tokenize(const char *pch){
 		}
 	}
 
-// the names of the token codes, in the same order as in the enum from lexer.h
 static const char *tkNames[]={
 	"ID"
 	,"VAR","FUNCTION","IF","ELSE","WHILE","END","RETURN"
