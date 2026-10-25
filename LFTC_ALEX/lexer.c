@@ -35,12 +35,13 @@ void tokenize(const char *pch){
 	const char *start;
 	Token *tk;
 	char buf[MAX_STR+1];
+	nTokens=0;
+	line=1;
 	for(;;){
 		switch(*pch){
 			case ' ':case '\t':pch++;break;
 			case '\r':		// handles different kinds of newlines (Windows: \r\n, Linux: \n, MacOS, OS X: \r or \n)
 				if(pch[1]=='\n')pch++;
-				// fallthrough to \n
 			case '\n':
 				line++;
 				pch++;
